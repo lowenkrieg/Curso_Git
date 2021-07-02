@@ -1,0 +1,90 @@
+    3  git --version
+    4  cd..
+    5  cd ..
+    6  clear
+    7  ls
+    8  history
+    9  git --version
+   10  clear
+   11  ls
+   12  ls a
+   13  ls -a
+   14  pwd
+   15  cd Desktop
+   16  cd ~
+   17  cd Desktop
+   18  mkdir Comandos
+   19  ls
+   20  cd Comandos
+   21  mkdir nueva carpeta
+   22  mkdir "carpeta nueva"
+   23  ls
+   24  mkdir -p nueva/vieja
+   25  ls
+   26  ls nueva
+   27  ls
+   28  rm -r nueva carpeta
+   29  rm -r nueva
+   30  ls
+   31  mv "carpeta nueva" carpeta_nueva
+   32  ls
+   33  mkdir nueva
+   34  mv nueva carpeta_nueva
+   35  ls
+   36  ls carpeta_nueva
+   37  cd Comandos
+   38  touch archivo.txt
+   39  ls
+   40  cp arquivo.txt carpeta_nueva
+   41  ls
+   42  cp archivo.txt carpeta_nueva
+   43  ls
+   44  ls carpeta_nueva
+   45  echo "mensaje"
+   46  echo "mensaje" > comando.txt
+   47  cat comando.txt
+   48  cat > comando.txt
+   49  cat comando.txt
+   50  cat >> comando.txt
+   51  cat comando.txt
+   52  history
+   53  history > historico.txt
+   54  cat.txt
+   55  cat historico
+   56  cat historico.txt
+   57  cd Desktop
+   58  cd ..
+   59  git config --global user.name "Eduardo Leon"
+   60  git config --global user.email "eduardoleonguerra@gmail.com"
+   61  git config user.name
+   62  mkdir Curso_Git
+   63  ls
+   64  cd Curso_Git/
+   65  git config user.naem
+   66  git config user.name
+   67  git init
+   68  git status
+   69  echo "#Aprendiendo usar Git" > readme.md
+   70  git status
+   71  git add readme.md
+   72  git status
+   73  git commit -m "Commit inicial"
+   74  git status
+   75  echo "##Aula 1" >> readme.md
+   76  git status
+   77  echo "Eduardo Leon" > participantes.txt
+   78  git status
+   79  git add .
+   80  git status
+   81  git restore --staged participantes.txt
+   82  git status
+   83  git add participantes.txt
+   84  git status
+   85  git restore --staged .
+   86  git status
+   87  git commit -am "Alteracion no readme"
+   88  git status
+   89  git add participantes.txt
+   90  git status
+   91  git commit -m "Ingresando participantes.txt"
+   92  git status
